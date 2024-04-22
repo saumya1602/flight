@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #914b4b;
+    background-image:url("../images/airport3.jpeg");
+
+    background-size: cover;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    color: #fff; /* Set text color to white for better visibility */
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #333;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background color */
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Style for links */
+a {
+    color: #fff; /* Set link color to white */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
